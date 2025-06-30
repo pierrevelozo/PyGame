@@ -2,6 +2,10 @@
 
 Jogo multijogador desenvolvido com a biblioteca PyGame.
 
+## Objetivo
+
+Derrote o outro jogador atirando e esquivando dos projéteis. O último jogador de pé vence a rodada!
+
 ## Controles
 
 ### Player 1
