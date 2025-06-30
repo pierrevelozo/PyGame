@@ -206,7 +206,7 @@ while running:
     else: 
         direcao = -1
 
-    if keys[pygame.K_SPACE]:
+    if keys[pygame.K_BACKSPACE]:
         # Player1 atira para a direita
         if now_ms - player1.last_shot >= FIRE_COOLDOWN_MS:
             bullet_group.add(
@@ -215,7 +215,7 @@ while running:
             )
             player1.last_shot = now_ms
 
-    if keys[pygame.K_BACKSPACE]:
+    if keys[pygame.K_SPACE]:
 
         # Player2 atira para a esquerda
         if now_ms - player2.last_shot >= FIRE_COOLDOWN_MS:
